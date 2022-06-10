@@ -136,3 +136,10 @@ p {
     color: #011627;
     margin-bottom: 30px;
 }
+
+/* ACTIVITIES SECTION media query*/
+@media screen and (max-width: 900px) {
+    #container-items {
+        flex-direction: column;
+    }
+}
